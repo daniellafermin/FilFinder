@@ -154,7 +154,7 @@ information and a well-defined distance:
 
 .. code:: python
 
-    fil = FilFinder2D(hdu, distance=580 * u.pc)
+    fil = FilFinder2D(hdu, distance= (10 ** 8) * u.pc)
 
 The beamwidth is :math:`24''` and is defined in the header.
 
